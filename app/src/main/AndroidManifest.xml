@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uccash.bdfood">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".alldivision"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".dhka_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".nar_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".manik_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".muns_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".tanga_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".fard_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".ctg_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".feni_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".noa_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".ranga_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".cox_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".khagra_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".mymen_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".sher_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".netro_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".bari_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".raj_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".bog_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".joy_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".nao_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".pab_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity android:name=".jes_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait" />
+        <activity android:name=".khl_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait"/>
+        <activity android:name=".sat_item"
+            android:parentActivityName=".alldivision"
+            android:screenOrientation="userPortrait"/>
+        <activity android:name=".button"></activity>
+    </application>
+
+</manifest>
